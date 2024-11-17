@@ -74,9 +74,13 @@ public abstract class AbstractEasyCard extends CustomCard {
 
         switch (cardType) {
             case ATTACK:
+                textureString = makeImagePath("cards/attack/" + cardName + ".png");
+                break;
             case POWER:
+                textureString = makeImagePath("cards/power/" + cardName + ".png");
+                break;
             case SKILL:
-                textureString = makeImagePath("cards/" + cardName + ".png");
+                textureString = makeImagePath("cards/skill/" + cardName + ".png");
                 break;
             default:
                 textureString = makeImagePath("ui/missing.png");

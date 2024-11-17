@@ -19,7 +19,7 @@ import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import yourmod.cards.Defend;
-import yourmod.cards.Strike;
+import yourmod.cards.BasicPerformance;
 import yourmod.relics.TodoItem;
 
 import java.util.ArrayList;
@@ -60,7 +60,7 @@ public class CharacterFile extends CustomPlayer {
     public ArrayList<String> getStartingDeck() {
         ArrayList<String> retVal = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
-            retVal.add(Strike.ID);
+            retVal.add(BasicPerformance.ID);
         }
         for (int i = 0; i < 4; i++) {
             retVal.add(Defend.ID);

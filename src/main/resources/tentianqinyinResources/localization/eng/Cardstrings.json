@@ -1,7 +1,7 @@
 {
-  "${ModID}:Strike": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage."
+  "${ModID}:BasicPerformance": {
+    "NAME": "基础表演",
+    "DESCRIPTION": "造成 !D! 点伤害"
   },
   "${ModID}:Defend": {
     "NAME": "Defend",
