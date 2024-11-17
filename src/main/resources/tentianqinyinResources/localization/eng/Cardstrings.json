@@ -3,9 +3,9 @@
     "NAME": "基础表演",
     "DESCRIPTION": "造成 !D! 点伤害"
   },
-  "${ModID}:Defend": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
+  "${ModID}:BasicExpressive": {
+    "NAME": "基础表现力",
+    "DESCRIPTION": "获得 !B! 点格挡"
   },
   "${ModID}:ExampleTwoAmountPowerCard": {
     "NAME": "Two Amount Power",

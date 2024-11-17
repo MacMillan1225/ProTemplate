@@ -1,8 +1,9 @@
-package yourmod.cards;
+package yourmod.cards.basiccards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import yourmod.cards.AbstractEasyCard;
 
 import static yourmod.ModFile.makeID;
 

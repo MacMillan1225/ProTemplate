@@ -18,8 +18,8 @@ import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
-import yourmod.cards.Defend;
-import yourmod.cards.BasicPerformance;
+import yourmod.cards.basiccards.BasicExpressive;
+import yourmod.cards.basiccards.BasicPerformance;
 import yourmod.relics.TodoItem;
 
 import java.util.ArrayList;
@@ -63,7 +63,7 @@ public class CharacterFile extends CustomPlayer {
             retVal.add(BasicPerformance.ID);
         }
         for (int i = 0; i < 4; i++) {
-            retVal.add(Defend.ID);
+            retVal.add(BasicExpressive.ID);
         }
         return retVal;
     }
