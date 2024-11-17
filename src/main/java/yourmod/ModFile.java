@@ -115,8 +115,8 @@ public class ModFile implements
 
     @Override
     public void receiveEditCharacters() {
-        BaseMod.addCharacter(new CharacterFile(CharacterFile.characterStrings.NAMES[1], CharacterFile.Enums.THE_TODO),
-            CHARSELECT_BUTTON, CHARSELECT_PORTRAIT, CharacterFile.Enums.THE_TODO);
+        BaseMod.addCharacter(new CharacterFile(CharacterFile.characterStrings.NAMES[1], CharacterFile.Enums.TENTIAN),
+            CHARSELECT_BUTTON, CHARSELECT_PORTRAIT, CharacterFile.Enums.TENTIAN);
         
         new AutoAdd(modID)
             .packageFilter(AbstractEasyPotion.class)
